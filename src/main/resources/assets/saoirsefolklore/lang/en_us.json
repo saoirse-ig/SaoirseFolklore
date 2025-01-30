@@ -12,7 +12,8 @@
   "block.saoirsefolklore.deepium_block": "Deepium Block",
   "block.saoirsefolklore.raw_deepium_block": "Raw Deepium Block",
 
-
   "tooltip.saoirsefolklore.deepium_block.tooltip": "§8Press Shift Debug Text",
+  "tooltip.saoirsefolklore.eye_of_the_deep": "A laden power swirls within.\n§8Press Shift For More Info",
+  "tooltip.saoirsefolklore.eye_of_the_deep.shift_down": "Something inside whispers to you, but when you try to focus on it, all you hear is the sounds of waves, as if you were in the middle of the ocean.",
   "tooltip.saoirsefolklore.deepium_block.tooltip.shift_down": ""
 }
