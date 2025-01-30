@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures":
+  {
+    "layer0": "saoirsefolklore:item/deepium_ingot"
+  }
+}

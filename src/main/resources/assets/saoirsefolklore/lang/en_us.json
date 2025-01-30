@@ -1,3 +1,7 @@
 {
-  "item.saoirsefolklore.raw_deepium": "Raw Deepium"
+  "item.saoirsefolklore.raw_deepium": "Raw Deepium",
+  "item.saoirsefolklore.deepium_ingot": "Deepium Ingot",
+
+  "block.saoirsefolklore.deepium_ore": "Deepium Ore",
+  "block.saoirsefolklore.deepium_block": "Deepium Block"
 }

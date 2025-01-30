@@ -1,4 +1,4 @@
-package net.saoirse.item;
+package net.saoirse.saoirsefolklore.item;
 
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -12,6 +12,9 @@ public class ModItems
 
     public static final DeferredItem<Item> RAW_DEEPIUM = ITEMS.register("raw_deepium",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DEEPIUM_INGOT = ITEMS.register("deepium_ingot",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register (IEventBus eventBus)
     {
