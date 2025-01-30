@@ -15,6 +15,9 @@ public class ModItems
     public static final DeferredItem<Item> DEEPIUM_INGOT = ITEMS.register("deepium_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> EYE_OF_THE_DEEP = ITEMS.register("eye_of_the_deep",
+            () -> new Item(new Item.Properties().stacksTo(16)));
+
 
     public static void register (IEventBus eventBus)
     {

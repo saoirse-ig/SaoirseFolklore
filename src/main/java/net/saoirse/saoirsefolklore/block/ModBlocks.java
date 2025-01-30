@@ -1,8 +1,12 @@
 package net.saoirse.saoirsefolklore.block;
 
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
@@ -13,6 +17,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.saoirse.saoirsefolklore.SaoirseFolklore;
 import net.saoirse.saoirsefolklore.item.ModItems;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class ModBlocks
@@ -49,7 +54,17 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.COPPER)));
+                    .sound(SoundType.COPPER)){
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    if(Screen.hasShiftDown()){
+                        tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.deepium_block.tooltip.shift_down"));
+                    } else {
+                        tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.deepium_block.tooltip"));
+                    }
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
