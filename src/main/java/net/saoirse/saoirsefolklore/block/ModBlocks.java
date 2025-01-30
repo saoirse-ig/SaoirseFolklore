@@ -1,13 +1,13 @@
 package net.saoirse.saoirsefolklore.block;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.neoforged.bus.EventBus;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.saoirse.saoirsefolklore.SaoirseFolklore;
@@ -20,12 +20,31 @@ public class ModBlocks
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(SaoirseFolklore.MOD_ID);
 
-    public static final DeferredBlock<Block> DEEPIUM_ORE = registerBlock("deepium_ore",
+    //RAW BLOCKS
+    public static final DeferredBlock<Block> RAW_DEEPIUM_BLOCK = registerBlock("raw_deepium_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f)
+                    .strength(3f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE)));
+                    .sound(SoundType.METAL)));
 
+
+    //ORE BLOCKS
+    public static final DeferredBlock<Block> DEEPIUM_ORE = registerBlock("deepium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6),
+                    BlockBehaviour.Properties.of()
+                            .strength(3f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_DEEPIUM_ORE = registerBlock("deepslate_deepium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(6,9),
+                    BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.DEEPSLATE)));
+
+
+    //CRAFTED BLOCKS
     public static final DeferredBlock<Block> DEEPIUM_BLOCK = registerBlock("deepium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
@@ -42,8 +61,6 @@ public class ModBlocks
     public static final <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block){
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
-
-
 
     public static void register (IEventBus eventBus){
         BLOCKS.register(eventBus);

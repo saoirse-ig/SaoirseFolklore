@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "saoirsefolklore:deepium_block",
+    "saoirsefolklore:raw_deepium_block",
+    "saoirsefolklore:deepium_ore",
+    "saoirsefolklore:deepslate_deepium_ore"
+  ]
+}

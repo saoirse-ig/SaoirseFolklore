@@ -21,8 +21,10 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("Saoirse's Folklore Mod"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RAW_DEEPIUM);
-                        output.accept(ModItems.DEEPIUM_INGOT);
                         output.accept(ModBlocks.DEEPIUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_DEEPIUM_ORE);
+                        output.accept(ModBlocks.RAW_DEEPIUM_BLOCK);
+                        output.accept(ModItems.DEEPIUM_INGOT);
                         output.accept(ModBlocks.DEEPIUM_BLOCK);
                     }).build());
 

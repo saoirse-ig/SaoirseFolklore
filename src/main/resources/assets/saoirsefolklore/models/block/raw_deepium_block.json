@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "saoirsefolklore:block/raw_deepium_block"
+  }
+}
