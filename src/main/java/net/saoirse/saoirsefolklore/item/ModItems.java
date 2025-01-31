@@ -60,6 +60,9 @@ public class ModItems
                 }
             });
 
+    public static final DeferredItem<SwordItem> AWAKENED_DEEPIUM_DAGGER = ITEMS.register("awakened_deepium_dagger",
+            () -> new SwordItem(ModToolTiers.DEEPIUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.DEEPIUM, -2, 1.5f))));
 
 
 

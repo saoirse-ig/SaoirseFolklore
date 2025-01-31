@@ -1,18 +1,19 @@
 {
   "tooltip.saoirsefolklore.blank_line": "",
-  "tooltip.saoirsefolklore.hold_shift_for_lore": "§8Hold Shift for lore",
+  "tooltip.saoirsefolklore.hold_shift_for_lore": "§8Hold Shift for additional lore",
 
   "item.saoirsefolklore.raw_deepium": "Raw Deepium",
   "item.saoirsefolklore.deepium_ingot": "Deepium Ingot",
   "item.saoirsefolklore.deepium_dust": "Deepium Dust",
   "item.saoirsefolklore.awakened_deepium_ingot": "§5§lAwakened Deepium Ingot",
 
-  "item.saoirsefolklore.awakened_eye_of_the_deep": "§5§lAwakened Eye of The Deep",
+  "item.saoirsefolklore.awakened_deepium_dagger": "§6Awakened Deepium Dagger",
+
+  "item.saoirsefolklore.awakened_eye_of_the_deep": "§6§lAwakened Eye of The Deep",
   "item.saoirsefolklore.eye_of_the_deep": "§5§lEye of The Deep",
 
   "block.saoirsefolklore.deepium_ore": "Deepium Ore",
   "block.saoirsefolklore.deepslate_deepium_ore": "Deepslate Deepium Ore",
-
 
   "block.saoirsefolklore.deepium_block": "Deepium Block",
   "block.saoirsefolklore.raw_deepium_block": "Raw Deepium Block",
@@ -20,6 +21,6 @@
   "tooltip.saoirsefolklore.eye_of_the_deep": "§6Laden power sits inside...",
   "tooltip.saoirsefolklore.eye_of_the_deep.shift_down": "§4Something inside whispers to you, but when you try to focus on it, all you hear is the sounds of waves, as if you were in the middle of the ocean.",
 
-  "tooltip.saoirsefolklore.awakened_eye_of_the_deep": "§6You stare into the §0abyss§6, but more stares back into you.",
-  "tooltip.saoirsefolklore.awakened_eye_of_the_deep.shift_down": "§4Something long dormant is now awake, and it peers into you, there is no returning from this now."
+  "tooltip.saoirsefolklore.awakened_eye_of_the_deep": "§cYou stare into the §5abyss§c, but more stares back into you.",
+  "tooltip.saoirsefolklore.awakened_eye_of_the_deep.shift_down": "§cSomething long dormant is now awake, and it peers into you, there is no returning from this path now."
 }
