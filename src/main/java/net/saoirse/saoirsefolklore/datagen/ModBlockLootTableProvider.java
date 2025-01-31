@@ -31,11 +31,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         add(ModBlocks.DEEPIUM_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.DEEPIUM_ORE.get(),
-                        ModItems.RAW_DEEPIUM.get(), 2, 4));
+                        ModItems.RAW_DEEPIUM.get(), 1, 2));
 
         add(ModBlocks.DEEPSLATE_DEEPIUM_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_DEEPIUM_ORE.get(),
-                        ModItems.RAW_DEEPIUM.get(), 4, 6));
+                        ModItems.RAW_DEEPIUM.get(), 1, 3));
  /*
         add(ModBlocks.DEEPIUM_ORE.get(),
         block -> createOreDrop(ModBlocks.DEEPIUM_ORE.get(), ModItems.RAW_DEEPIUM.get()));

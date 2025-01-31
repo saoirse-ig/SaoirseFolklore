@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "saoirsefolklore:deepium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "saoirsefolklore:deepium_ingot"
+  }
+}

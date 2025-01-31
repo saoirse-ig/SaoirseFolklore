@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "deepium",
+  "ingredient": {
+    "item": "saoirsefolklore:deepslate_deepium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "saoirsefolklore:deepium_ingot"
+  }
+}

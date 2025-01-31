@@ -1,5 +1,5 @@
-// 1.21.1	2025-01-31T00:10:31.4745832	Loot Tables
+// 1.21.1	2025-01-31T01:52:00.5854472	Loot Tables
 9ce0d57dec9265d495244224fc1c9f4576514245 data/saoirsefolklore/loot_table/blocks/deepium_block.json
-39e7b3fb258e8b11740339617b1ded2d5eb3b5ca data/saoirsefolklore/loot_table/blocks/deepium_ore.json
-a5855d96cf8fa4f854f4460deebed79fd5d7cd8f data/saoirsefolklore/loot_table/blocks/deepslate_deepium_ore.json
+bfce6c5674c0e6d8e7ac2e8ff0465361b792bfeb data/saoirsefolklore/loot_table/blocks/deepium_ore.json
+18f801a1189d961982fce386b85a4bde5fcae204 data/saoirsefolklore/loot_table/blocks/deepslate_deepium_ore.json
 28f9a13c1a11e8b42281f0ea08e0fc7df5ed4885 data/saoirsefolklore/loot_table/blocks/raw_deepium_block.json

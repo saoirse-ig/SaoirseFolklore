@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_deepium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "saoirsefolklore:deepslate_deepium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "saoirsefolklore:deepium_ingot_from_blasting_deepslate_deepium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deepslate_deepium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "saoirsefolklore:deepium_ingot_from_blasting_deepslate_deepium_ore"
+    ]
+  }
+}
