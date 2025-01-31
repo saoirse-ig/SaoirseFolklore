@@ -29,6 +29,8 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.DEEPIUM_BLOCK);
 
                         output.accept(ModItems.EYE_OF_THE_DEEP);
+                        output.accept(ModItems.AWAKENED_DEEPIUM_INGOT);
+                        output.accept(ModItems.AWAKENED_EYE_OF_THE_DEEP);
                     }).build());
 
     public static void register(IEventBus eventBus)

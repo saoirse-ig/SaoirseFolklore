@@ -17,6 +17,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.EYE_OF_THE_DEEP.get());
         basicItem(ModItems.RAW_DEEPIUM.get());
         basicItem(ModItems.DEEPIUM_INGOT.get());
+        basicItem(ModItems.AWAKENED_DEEPIUM_INGOT.get());
+        basicItem(ModItems.AWAKENED_EYE_OF_THE_DEEP.get());
 
     }
 }

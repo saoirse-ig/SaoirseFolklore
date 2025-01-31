@@ -54,17 +54,7 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.COPPER)){
-                @Override
-                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-                    if(Screen.hasShiftDown()){
-                        tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.deepium_block.tooltip.shift_down"));
-                    } else {
-                        tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.deepium_block.tooltip"));
-                    }
-                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
-                }
-            });
+                    .sound(SoundType.COPPER)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

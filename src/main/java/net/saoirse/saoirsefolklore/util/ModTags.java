@@ -10,6 +10,8 @@ import net.saoirse.saoirsefolklore.SaoirseFolklore;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_DEEPIUM_TOOL = createTag("needs_deepium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_DEEPIUM_TOOL = createTag("incorrect_for_deepium_tool");
 
 
         private static TagKey<Block> createTag(String name) {
