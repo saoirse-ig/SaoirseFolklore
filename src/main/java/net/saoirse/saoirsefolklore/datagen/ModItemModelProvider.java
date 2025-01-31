@@ -23,7 +23,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DEEPIUM_INGOT.get());
         basicItem(ModItems.AWAKENED_DEEPIUM_INGOT.get());
         basicItem(ModItems.AWAKENED_EYE_OF_THE_DEEP.get());
-        basicItem(ModItems.AWAKENED_DEEPIUM_DAGGER.get());
 
         handheldItem(ModItems.AWAKENED_DEEPIUM_DAGGER);
     }
