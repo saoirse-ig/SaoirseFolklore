@@ -29,9 +29,12 @@ public class ModItems
         @Override
         public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag){
             if(Screen.hasShiftDown()) {
+                tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.blank_line"));
                 tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.eye_of_the_deep.shift_down"));
             } else {
+                tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.blank_line"));
                 tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.eye_of_the_deep"));
+                tooltipComponents.add(Component.translatable("tooltip.saoirsefolklore.hold_shift_for_lore"));
             }
                 super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
             }
