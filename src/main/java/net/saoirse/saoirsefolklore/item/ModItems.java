@@ -11,7 +11,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.saoirse.saoirsefolklore.SaoirseFolklore;
 
 import java.util.List;
-import java.util.function.Supplier;
 
 public class ModItems
 {
