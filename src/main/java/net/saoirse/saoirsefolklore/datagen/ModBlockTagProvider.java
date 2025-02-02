@@ -7,6 +7,7 @@ import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.saoirse.saoirsefolklore.SaoirseFolklore;
 import net.saoirse.saoirsefolklore.block.ModBlocks;
+import net.saoirse.saoirsefolklore.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -30,6 +31,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.DEEPIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_DEEPIUM_ORE.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_DEEPIUM_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_DEEPIUM_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .addTag(ModTags.Blocks.NEEDS_DEEPIUM_TOOL);
 
     }
 }

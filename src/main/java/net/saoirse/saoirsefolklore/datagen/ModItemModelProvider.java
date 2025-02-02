@@ -6,7 +6,6 @@ import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredItem;
-import net.minecraft.data.PackOutput;
 import net.saoirse.saoirsefolklore.SaoirseFolklore;
 import net.saoirse.saoirsefolklore.item.ModItems;
 
@@ -23,6 +22,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DEEPIUM_INGOT.get());
         basicItem(ModItems.AWAKENED_DEEPIUM_INGOT.get());
         basicItem(ModItems.AWAKENED_EYE_OF_THE_DEEP.get());
+
+        basicItem(ModItems.COPPER_DAGGER.get());
+        basicItem(ModItems.IRON_DAGGER.get());
+        basicItem(ModItems.GOLD_DAGGER.get());
+        basicItem(ModItems.DIAMOND_DAGGER.get());
+
+        basicItem(ModItems.COPPER_SCYTHE.get());
+        basicItem(ModItems.IRON_SCYTHE.get());
+        basicItem(ModItems.GOLD_SCYTHE.get());
+        basicItem(ModItems.DIAMOND_SCYTHE.get());
+
+        basicItem(ModItems.KEY.get());
 
         handheldItem(ModItems.AWAKENED_DEEPIUM_DAGGER);
     }

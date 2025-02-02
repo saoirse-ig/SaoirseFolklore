@@ -43,7 +43,15 @@ public class ModCreativeModeTabs
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AWAKENED_DEEPIUM_DAGGER.get()))
                     .title(Component.translatable("Folklore Tools"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.AWAKENED_DEEPIUM_DAGGER);
+                        output.accept(ModItems.KEY);
+                        output.accept(ModItems.COPPER_DAGGER);
+                        output.accept(ModItems.IRON_DAGGER);
+                        output.accept(ModItems.GOLD_DAGGER);
+                        output.accept(ModItems.DIAMOND_DAGGER);
+                        output.accept(ModItems.COPPER_SCYTHE);
+                        output.accept(ModItems.IRON_SCYTHE);
+                        output.accept(ModItems.GOLD_SCYTHE);
+                        output.accept(ModItems.DIAMOND_SCYTHE);
                     }).build());
 
 

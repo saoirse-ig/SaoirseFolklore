@@ -4,6 +4,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.saoirse.saoirsefolklore.block.ModBlocks;
 import net.saoirse.saoirsefolklore.item.ModCreativeModeTabs;
 import net.saoirse.saoirsefolklore.item.ModItems;
+import net.saoirse.saoirsefolklore.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -37,6 +38,7 @@ public class SaoirseFolklore
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

@@ -1,8 +1,17 @@
-// 1.21.1	2025-01-31T15:15:57.2208512	Item Models: saoirsefolklore
+// 1.21.1	2025-02-02T07:39:54.6954487	Item Models: saoirsefolklore
 0ae973b744dfc9f3d66e76c3b42e1abfcbfc0b49 assets/saoirsefolklore/models/item/awakened_deepium_dagger.json
 788e03d030875827bd3c5eb8d46b50877c7056c6 assets/saoirsefolklore/models/item/awakened_deepium_ingot.json
 34f31ac3fe0f6659820a8c8103015ec8b90da473 assets/saoirsefolklore/models/item/awakened_eye_of_the_deep.json
+adcacdca9220af84a4df54545cdffc2596afcfb5 assets/saoirsefolklore/models/item/copper_dagger.json
+99e946e212850ae80ab3c8942f98ed6b2bc6c784 assets/saoirsefolklore/models/item/copper_scythe.json
 b7710fab5c19d0c84e59fb0954ea19fc5f19ca2d assets/saoirsefolklore/models/item/deepium_dust.json
 a3430dc11fba32c226d658ac3c378b14e65dd9ca assets/saoirsefolklore/models/item/deepium_ingot.json
+ad72e0f3225a9e23e2821804db5c5caafe1f6e1f assets/saoirsefolklore/models/item/diamond_dagger.json
+27882b27f88d29ab91e1874d660164b11f442ab9 assets/saoirsefolklore/models/item/diamond_scythe.json
 419857f878f05caf5e747fe255e5eb1252965c88 assets/saoirsefolklore/models/item/eye_of_the_deep.json
+1a9dbdb9ab35c98d39f34c36ae43451c8e94fbf7 assets/saoirsefolklore/models/item/gold_dagger.json
+6d1730672fea1d706a346327762ee1cc0dedc66d assets/saoirsefolklore/models/item/gold_scythe.json
+002ec65735b813348dbf0569fab6fbb7fb7ba0df assets/saoirsefolklore/models/item/iron_dagger.json
+dee0bd0fc426175f99390edf5675c8836d6e5f2b assets/saoirsefolklore/models/item/iron_scythe.json
+0d34c8c3dbf2d225601a748a8fc88c5c94abaf7c assets/saoirsefolklore/models/item/key.json
 29cbfddad18b74d5fd128dc5db82de255282db42 assets/saoirsefolklore/models/item/raw_deepium.json
