@@ -10,6 +10,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.saoirse.saoirsefolklore.SaoirseFolklore;
+import net.saoirse.saoirsefolklore.item.custom.KeyItem;
 
 import java.util.List;
 
@@ -31,7 +32,7 @@ public class ModItems
 
     //JOKE ITEMS
     public static final DeferredItem<Item> KEY = ITEMS.register("key",
-            () -> new Item(new Item.Properties()));
+            () -> new KeyItem(new Item.Properties()));
 
     //SPECIAL / TOOLTIP ITEMS
     public static final DeferredItem<Item> EYE_OF_THE_DEEP = ITEMS.register("eye_of_the_deep",

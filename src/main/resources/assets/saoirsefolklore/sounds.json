@@ -1,5 +1,8 @@
 {
   "key_use": {
-    "sounds": "saoirsefolklore:sounds/key_use"
+    "subtitle": "sounds.saoirsefolklore.key_use",
+    "sounds": [
+      "saoirsefolklore:key_use"
+    ]
   }
 }
