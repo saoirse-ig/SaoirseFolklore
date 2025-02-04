@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "saoirsefolklore:item/copper_great_mace"
+  }
+}

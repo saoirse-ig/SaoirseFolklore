@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:brush"
+    },
+    "C": {
+      "item": "saoirsefolklore:old_coin"
+    }
+  },
+  "pattern": [
+    "   ",
+    "B  ",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "saoirsefolklore:amethyst_coin"
+  }
+}

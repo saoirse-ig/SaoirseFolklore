@@ -14,12 +14,64 @@
   "item.saoirsefolklore.iron_dagger": "Iron Dagger",
   "item.saoirsefolklore.gold_dagger": "Golden Dagger",
   "item.saoirsefolklore.diamond_dagger": "Diamond Dagger",
+  "item.saoirsefolklore.netherite_dagger": "Netherite Dagger",
   "item.saoirsefolklore.awakened_deepium_dagger": "§6Awakened Deepium Dagger",
+
+  "item.saoirsefolklore.copper_short_sword": "Copper Short Sword",
+  "item.saoirsefolklore.iron_short_sword": "Iron Short Sword",
+  "item.saoirsefolklore.gold_short_sword": "Golden Short Sword",
+  "item.saoirsefolklore.diamond_short_sword": "Diamond Short Sword",
+  "item.saoirsefolklore.netherite_short_sword": "Netherite Short Sword",
 
   "item.saoirsefolklore.copper_scythe": "Copper Scythe",
   "item.saoirsefolklore.iron_scythe": "Iron Scythe",
   "item.saoirsefolklore.gold_scythe": "Golden Scythe",
   "item.saoirsefolklore.diamond_scythe": "Diamond Scythe",
+  "item.saoirsefolklore.netherite_scythe": "Netherite Scythe",
+
+  "item.saoirsefolklore.copper_greatsword": "Copper Greatsword",
+  "item.saoirsefolklore.iron_greatsword": "Iron Greatsword",
+  "item.saoirsefolklore.gold_greatsword": "Golden Greatsword",
+  "item.saoirsefolklore.diamond_greatsword": "Diamond Greatsword",
+  "item.saoirsefolklore.netherite_greatsword": "Netherite Greatsword",
+
+  "item.saoirsefolklore.copper_great_axe": "Copper Great Axe",
+  "item.saoirsefolklore.iron_great_axe": "Iron Great Axe",
+  "item.saoirsefolklore.gold_great_axe": "Golden Great Axe",
+  "item.saoirsefolklore.diamond_great_axe": "Diamond Great Axe",
+  "item.saoirsefolklore.netherite_great_axe": "Netherite Great Axe",
+
+  "item.saoirsefolklore.copper_great_mace": "Copper Great Mace",
+  "item.saoirsefolklore.iron_great_mace": "Iron Great Mace",
+  "item.saoirsefolklore.gold_great_mace": "Golden Great Mace",
+  "item.saoirsefolklore.diamond_great_mace": "Diamond Great Mace",
+  "item.saoirsefolklore.netherite_great_mace": "Netherite Great Mace",
+
+  "item.saoirsefolklore.copper_halberd": "Copper Halberd",
+  "item.saoirsefolklore.iron_halberd": "Iron Halberd",
+  "item.saoirsefolklore.gold_halberd": "Golden Halberd",
+  "item.saoirsefolklore.diamond_halberd": "Diamond Halberd",
+  "item.saoirsefolklore.netherite_halberd": "Netherite Halberd",
+
+  "item.saoirsefolklore.copper_rapier": "Copper Rapier",
+  "item.saoirsefolklore.iron_rapier": "Iron Rapier",
+  "item.saoirsefolklore.gold_rapier": "Golden Rapier",
+  "item.saoirsefolklore.diamond_rapier": "Diamond Rapier",
+  "item.saoirsefolklore.netherite_rapier": "Netherite Rapier",
+
+  "item.saoirsefolklore.copper_estoc": "Copper Estoc",
+  "item.saoirsefolklore.iron_estoc": "Iron Estoc",
+  "item.saoirsefolklore.gold_estoc": "Golden Estoc",
+  "item.saoirsefolklore.diamond_estoc": "Diamond Estoc",
+  "item.saoirsefolklore.netherite_estoc": "Netherite Estoc",
+
+
+
+  "item.saoirsefolklore.old_coin": "Old Coin",
+  "tooltip.saoirsefolklore.old_coin": "Could do with a bit of §6brush§ring",
+
+  "item.saoirsefolklore.amethyst_coin": "Amethyst Coin",
+  "tooltip.saoirsefolklore.amethyst_coin": "§6§lA relic of a bygone era",
 
   "item.saoirsefolklore.awakened_eye_of_the_deep": "§6§lAwakened Eye of The Deep",
   "item.saoirsefolklore.eye_of_the_deep": "§5§lEye of The Deep",

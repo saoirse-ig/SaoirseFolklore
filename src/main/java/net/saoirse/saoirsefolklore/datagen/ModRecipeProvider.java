@@ -7,6 +7,7 @@ import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
+import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import net.saoirse.saoirsefolklore.SaoirseFolklore;
 import net.saoirse.saoirsefolklore.block.ModBlocks;
 import net.saoirse.saoirsefolklore.item.ModItems;
@@ -24,6 +25,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(RecipeOutput recipeOutput) {
 
         List<ItemLike> DEEPIUM_SMELTABLES = List.of(ModBlocks.DEEPIUM_ORE, ModBlocks.DEEPSLATE_DEEPIUM_ORE, ModItems.RAW_DEEPIUM);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AMETHYST_COIN.get())
+                .pattern("   ")
+                .pattern("B  ")
+                .pattern("C  ")
+                .define('B', Items.BRUSH)
+                .define('C', ModItems.OLD_COIN.get())
+                .unlockedBy("has_raw_deepium", has(ModItems.RAW_DEEPIUM)).save(recipeOutput,
+                        "saoirsefolklore:amethyst_coin_from_old_coin");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EYE_OF_THE_DEEP.get())
                 .pattern("###")
