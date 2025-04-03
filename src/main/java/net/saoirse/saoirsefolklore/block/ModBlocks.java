@@ -36,8 +36,10 @@ public class ModBlocks
     //ORE BLOCKS
     public static final DeferredBlock<Block> DEEPIUM_ORE = registerBlock("deepium_ore",
             () -> new DropExperienceBlock(UniformInt.of(3,6),
-                    BlockBehaviour.Properties.of()
-                            .strength(3f)
+
+
+ BlockBehaviour.Properties.of()
+         .strength(3f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)));
 
@@ -47,8 +49,6 @@ public class ModBlocks
                             .strength(4f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.DEEPSLATE)));
-
-
     //CRAFTED BLOCKS
     public static final DeferredBlock<Block> DEEPIUM_BLOCK = registerBlock("deepium_block",
             () -> new Block(BlockBehaviour.Properties.of()
